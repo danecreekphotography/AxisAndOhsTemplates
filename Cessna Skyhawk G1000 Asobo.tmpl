@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TemplateExport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JoysticksUsed>
+    <TemplateDevice>
+      <id>1000</id>
+      <name>Bravo Throttle Quadrant</name>
+      <guid>37f13e00-3607-11eb-8001-444553540000</guid>
+    </TemplateDevice>
+  </JoysticksUsed>
+  <template>
+    <aircraftId>Cessna Skyhawk G1000 Asobo</aircraftId>
+    <airFileId>Cessna Skyhawk G1000 Asobo</airFileId>
+    <buttons>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Autopilot</Group>
+          <Description>Toggles flight director on/off</Description>
+          <SimulatorEventName>TOGGLE_FLIGHT_DIRECTOR</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </downEvent>
+        <upEvent>
+          <Group>Autopilot</Group>
+          <Description>Toggles AP on/off</Description>
+          <SimulatorEventName>AP_MASTER</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </upEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>37f13e00-3607-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>7</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>true</longClick>
+        <longClickTimeoutMs>600</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>600</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AP_MASTER</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Scripts</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>Scripts-Set heading bug to current heading</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <upEvent>
+          <Group>Autopilot</Group>
+          <Description>Toggles heading hold mode</Description>
+          <SimulatorEventName>AP_HDG_HOLD</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </upEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>37f13e00-3607-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>0</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>true</longClick>
+        <longClickTimeoutMs>600</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>600</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AP_HDG_HOLD</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Autopilot</Group>
+          <Description>Toggles approach hold (localizer and glide-slope)</Description>
+          <SimulatorEventName>AP_APR_HOLD</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>37f13e00-3607-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>2</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AP_APR_HOLD</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Autopilot</Group>
+          <Description>Toggles the backcourse mode for the localizer hold</Description>
+          <SimulatorEventName>AP_BC_HOLD</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>37f13e00-3607-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>3</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AP_BC_HOLD</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Autopilot</Group>
+          <Description>Toggles altitude hold mode</Description>
+          <SimulatorEventName>AP_ALT_HOLD</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>37f13e00-3607-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>4</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AP_ALT_HOLD</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Autopilot</Group>
+          <Description>Toggles vertical speed hold mode on/off</Description>
+          <SimulatorEventName>AP_PANEL_VS_HOLD</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>37f13e00-3607-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>5</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AP_PANEL_VS_HOLD</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>Autopilot</Group>
+          <Description>Toggles airspeed hold mode</Description>
+          <SimulatorEventName>AP_AIRSPEED_HOLD</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SINGLE</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>37f13e00-3607-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>6</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>AP_AIRSPEED_HOLD</Action>
+      </GlobalHotkey>
+    </buttons>
+    <axis />
+    <overrideSaitekPanelInMidiMode />
+    <overrideSaitekEvents />
+    <overrideSaitekVariables />
+    <autoScripts />
+    <virtualGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</virtualGaugesTemplateGuid>
+    <desktopGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</desktopGaugesTemplateGuid>
+    <webGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</webGaugesTemplateGuid>
+    <remoteScriptIds />
+  </template>
+  <scripts>
+    <Script>
+      <group>Scripts</group>
+      <label>Set heading bug to current heading</label>
+      <script>(A:HEADING INDICATOR, degrees) (&gt;K:HEADING_BUG_SET)</script>
+    </Script>
+  </scripts>
+</TemplateExport>

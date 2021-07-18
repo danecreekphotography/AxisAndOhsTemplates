@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <scripts>
+    <Script>
+      <group>Cessna 172 G1000</group>
+      <label>AP heading - decrement</label>
+      <script>(A:AUTOPILOT HEADING LOCK DIR, Degrees) 0 == if{ 359 } els{ (A:AUTOPILOT HEADING LOCK DIR, Degrees) (L:Cessna 172 G1000-AP heading - decrement) - } (&gt;K:HEADING_BUG_SET)</script>
+    </Script>
+    <Script>
+      <group>Cessna 172 G1000</group>
+      <label>AP heading - increment</label>
+      <script>(A:AUTOPILOT HEADING LOCK DIR, Degrees) (L:Cessna 172 G1000-AP heading - increment) + (&gt;K:HEADING_BUG_SET)</script>
+    </Script>
+    <Script>
+      <group>Cessna 172 G1000</group>
+      <label>AP ALT - set</label>
+      <script>(A:AUTOPILOT ALTITUDE LOCK VAR, Feet) (L:Cessna 172 G1000-AP ALT - set) + (&gt;K:AP_ALT_VAR_SET_ENGLISH)</script>
+    </Script>
+    <Script>
+      <group>Cessna 172 G1000</group>
+      <label>AP VS - set</label>
+      <script>(A:AUTOPILOT VERTICAL HOLD VAR, Feet/minute) (L:Cessna 172 G1000-AP VS - set) + (&gt;K:AP_VS_VAR_SET_ENGLISH)</script>
+    </Script>
+    <Script>
+      <group>Cessna 172 G1000</group>
+      <label>AP FLC - toggle</label>
+      <script>(A:AUTOPILOT FLIGHT LEVEL CHANGE,bool) 1 == if{1 (&gt;K:FLIGHT_LEVEL_CHANGE_OFF)} els{ 1 (&gt;K:FLIGHT_LEVEL_CHANGE_ON) }</script>
+    </Script>
+    <Script>
+      <group>Cessna 172 G1000</group>
+      <label>AP IAS - set</label>
+      <script>(A:AUTOPILOT AIRSPEED HOLD VAR, Knots) (L:Cessna 172 G1000-AP IAS - set) + (&gt;K:AP_SPD_VAR_SET)</script>
+    </Script>
+  </scripts>
+</ScriptList>
